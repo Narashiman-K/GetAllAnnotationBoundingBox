@@ -109,6 +109,11 @@ export default function PdfViewerComponent(props) {
           const height = bottom - top;
           console.log("Bottom: ",bottom," Left: ",left, " Right: ", right," Width: ", width," Height: ", height);
           console.log("Annotation", i, "Bounding Box: ",annotation.boundingBox);
+          //Following is to export the Annotation
+          const annotationJSON = PSPDFKit.Annotations.toSerializableObject(annotation);
+          const annotationExport = PSPDFKit.Annotations.fromSerializableObject(annotationJSON);
+          console.log("Export Annotation Before deserilization", annotationJSON);
+          console.log("Export Annotation After deserilization", annotationExport);
         });
       };
       fetchAnnotationCoordinates();
