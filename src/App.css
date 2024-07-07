@@ -25,3 +25,11 @@
   position: relative;
   flex: 1;
 }
+
+.btnstyle {
+  color: rgb(81, 30, 219);
+}
+.btnstyle:hover{
+  color: rgb(209, 21, 21);
+  background-color: aqua;
+}
