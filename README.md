@@ -1,24 +1,28 @@
-# PSPDFKit for Web Example – Vite.js
+# Disclaimer
+This software is provided as-is, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
 
-This example shows how to integrate [PSPDFKit for Web](https://pspdfkit.com/web/) into a [Vite.js](https://vitejs.dev/) with React app.
+The user is solely responsible for determining the appropriateness of using or redistributing the software and assumes any risks associated with the exercise of permissions under the license.
+
+# PSPDFKit for Web Example – Vite.js with React app
+
+This example shows How to get all Annotations on the page with coordinates. It shows how to create annotations from clipboard data. It shows how to cut, copy, and paste annotations between pages. It also shows how to jump and zoom into the annotations based on the bounding box values. or just jump to the next annotation without zooming into the annotation. 
 
 ## Prerequisites
 
 - [Node.js](http://nodejs.org/)
 
+Are you [evaluating our SDK](https://pspdfkit.com/try/)? That's great, we're happy to help out! To make sure this is fast, please use a work email and have someone from your company fill out our sales form: https://pspdfkit.com/sales/
 ## Support, Issues and License Questions
-
 PSPDFKit offers support for customers with an active SDK license via https://pspdfkit.com/support/request/
 
-Are you [evaluating our SDK](https://pspdfkit.com/try/)? That's great, we're happy to help out! To make sure this is fast, please use a work email and have someone from your company fill out our sales form: https://pspdfkit.com/sales/
 
 ## Getting Started
 
 Clone the repo:
 
 ```bash
-git clone https://github.com/PSPDFKit/pspdfkit-web-example-vite.git
-cd pspdfkit-web-example-vite
+git clone repo
+cd to the folder
 ```
 
 Install the project dependencies:
@@ -29,7 +33,7 @@ npm install
 
 ## Running the Example
 
-We are ready to launch the app! 🎉
+We are ready to launch the app to check the functionality! 🎉
 
 ```shell script
 npm run dev
