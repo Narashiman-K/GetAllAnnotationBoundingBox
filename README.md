@@ -21,8 +21,8 @@ PSPDFKit offers support for customers with an active SDK license via https://psp
 Clone the repo:
 
 ```bash
-git clone repo
-cd to the folder
+git clone https://github.com/Narashiman-K/GetAllAnnotationBoundingBox.git
+cd GetAllAnnotationBoundingBox
 ```
 
 Install the project dependencies:
