@@ -84,7 +84,7 @@ export default function PdfViewerComponent(props) {
 // the following code is the paste event (which copies from clipboard and creates annotation based on text or image copied) 
 // the above copy paste and this one is different.
       document.addEventListener('paste', async (event) => {
-        const isProcessingPaste = false;
+        let isProcessingPaste = false;
         if (isProcessingPaste) return;
 
         try {
