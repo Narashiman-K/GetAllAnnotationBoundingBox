@@ -22,7 +22,7 @@ export default function PdfViewerComponent(props) {
       const toolbarItems = [...defaultToolbarItems];
 
       instance = await PSPDFKit.load({
-        licenseKey: VITE_LKEY,
+        licenseKey: import.meta.env.VITE_LKEY,
         container,
         document: props.document,
         baseUrl: `${window.location.protocol}//${window.location.host}/${import.meta.env.PUBLIC_URL ?? ""}`,
