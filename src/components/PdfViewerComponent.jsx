@@ -213,9 +213,9 @@ export default function PdfViewerComponent(props) {
           "strokeColor": light_red,
           "opacity": 1,
         }));
-      instance.jumpAndZoomToRect(annotation.pageIndex, bBox); // This will zoom to the annotation. 
-    //instance.jumpToRect(annotation.pageIndex, bBox); // you can use this if you don't want to zoom and just focus on the annotation. 
-      setTimeout(async() => { await instance.delete(highlightannotID); }, 3000);
+      //instance.jumpAndZoomToRect(annotation.pageIndex, bBox); // This will zoom to the annotation. 
+      instance.jumpToRect(annotation.pageIndex, bBox); // you can use this if you don't want to zoom and just focus on the annotation. 
+      setTimeout(async() => { await instance.delete(highlightannotID); }, 4000);
     }
   };
  //End of Get the next annotation - button available on the tool bar right corner
