@@ -3,7 +3,7 @@ import PdfViewerComponent from "./components/PdfViewerComponent.jsx";
 import "./App.css";
 
 function App() {
-  const [document, setDocument] = useState("document_1.pdf");
+  const [document, setDocument] = useState("document.pdf");
   const [handleAnnotation, setHandleAnnotation] = useState("");
   const [nextAnnotation, setNextAnnotation] = useState(0);
 
